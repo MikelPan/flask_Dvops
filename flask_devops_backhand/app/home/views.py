@@ -8,10 +8,10 @@
 # 开发工具：PyCharm
 
 from . import home
-from app.models import User
-from app import db
+from flask_devops_backhand.app import User
+
+
 #from app.home.forms import Userinfo
-from flask import render_template, url_for, redirect, flash, sessions, request
 
 @home.route("/user_info")
 def user_info():

@@ -142,7 +142,7 @@ pip-selfcheck.json
 
 .idea/inspectionProfiles/
 __pycache__/
-app/__pycache__/
-app/admin/__pycache__/
-app/home/__pycache__/
+flask_devops_backhand/app/__pycache__/
+flask_devops_backhand/app/admin/__pycache__/
+flask_devops_backhand/app/home/__pycache__/
 migrations/

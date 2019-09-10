@@ -8,8 +8,7 @@
 # 开发工具：PyCharm
 
 
-from app import create_app, db
-from app.models import *
+from flask_devops_backhand.app import *
 from flask_script import Manager, Shell
 from flask_migrate import Migrate, MigrateCommand
 from flask import render_template
